@@ -179,6 +179,18 @@ string sizeLabel = (pages5 > 300) ? "Long Book" : "Short Book";
 
 Console.WriteLine(sizeLabel);
 #endregion
+
+#region Question 15
+// For loop to print books with position numbers
+
+string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+for (int i = 0; i < books.Length; i++)
+{
+    Console.WriteLine((i + 1) + ". " + books[i]);
+}
+#endregion
+
 // Simple Book class
 public class Book
 {
