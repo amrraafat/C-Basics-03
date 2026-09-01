@@ -215,6 +215,17 @@ do
 } while (count < 3);
 #endregion
 
+#region Question 18
+// Foreach loop to print every book title
+
+string[] books3 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+foreach (string book in books3)
+{
+    Console.WriteLine(book);
+}
+#endregion
+
 // Simple Book class
 public class Book
 {
