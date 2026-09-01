@@ -98,6 +98,16 @@ else
 }
 #endregion
 
+#region Question 9
+// Convert int to string using ToString() and print its type using GetType()
+
+int pages2 = 464;
+string pagesText2 = pages.ToString();
+
+Console.WriteLine(pagesText);
+Console.WriteLine(pagesText.GetType());
+#endregion
+
 // Simple Book class
 public class Book
 {
