@@ -11,6 +11,20 @@ object myBook = b1;
 Console.WriteLine(myBook);
 #endregion
 
+#region Question 2
+// Call ToString, Equals, GetHashCode, and GetType on the book object
+
+Book b2 = new Book();
+b2.Title = "Clean Code";
+b2.Pages = 300;
+
+// Printing results of basic object methods
+Console.WriteLine(b2.ToString());
+Console.WriteLine(b2.Equals(b2));
+Console.WriteLine(b2.GetHashCode());
+Console.WriteLine(b2.GetType());
+#endregion
+
 // Simple Book class
 public class Book
 {
