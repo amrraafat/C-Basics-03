@@ -25,6 +25,14 @@ Console.WriteLine(b2.GetHashCode());
 Console.WriteLine(b2.GetType());
 #endregion
 
+#region Question 3
+// Error type: Compile-time error
+// Fix: We cannot store string "464" directly in int variable, we must parse it to int
+
+int pages = int.Parse("464");
+Console.WriteLine(pages);
+#endregion
+
 // Simple Book class
 public class Book
 {
