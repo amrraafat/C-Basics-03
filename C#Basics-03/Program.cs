@@ -138,6 +138,18 @@ else
 }
 #endregion
 
+#region Question 12
+// Check two conditions using && operator
+
+int pages4 = 464;
+bool isAvailable = true;
+
+if (pages4 > 300 && isAvailable)
+{
+    Console.WriteLine("You can borrow this book");
+}
+#endregion
+
 // Simple Book class
 public class Book
 {
