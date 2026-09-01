@@ -39,7 +39,7 @@ var num1 = 10;
 var num2 = 0;
 try
 {
-    int result = num1 / num2;
+    int divisionResult = num1 / num2;
 }
 catch (DivideByZeroException)
 {
@@ -149,6 +149,26 @@ if (pages4 > 300 && isAvailable)
     Console.WriteLine("You can borrow this book");
 }
 #endregion
+
+#region Question 13
+// Switch statement to check book title
+
+string title = "Refactoring";
+
+switch (title)
+{
+    case "Clean Code":
+        Console.WriteLine("Great choice!");
+        break;
+    case "Refactoring":
+        Console.WriteLine("Nice pick!");
+        break;
+    default:
+        Console.WriteLine("Never heard of it");
+        break;
+}
+#endregion
+
 
 // Simple Book class
 public class Book
