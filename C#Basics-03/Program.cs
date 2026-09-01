@@ -60,6 +60,15 @@ double doublePages = page; // Automatically converts int to double
 Console.WriteLine(doublePages);
 #endregion
 
+#region Question 6
+// Convert double to int using explicit cast
+
+double price = 49.99;
+int intPrice = (int)price; // Casting double to int
+
+Console.WriteLine(intPrice);
+#endregion
+
 // Simple Book class
 public class Book
 {
