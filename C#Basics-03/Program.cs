@@ -170,6 +170,15 @@ switch (title)
 #endregion
 
 
+#region Question 14
+// Ternary operator to check if pages > 300
+
+int pages5 = 464;
+
+string sizeLabel = (pages5 > 300) ? "Long Book" : "Short Book";
+
+Console.WriteLine(sizeLabel);
+#endregion
 // Simple Book class
 public class Book
 {
