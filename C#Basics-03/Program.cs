@@ -69,6 +69,15 @@ int intPrice = (int)price; // Casting double to int
 Console.WriteLine(intPrice);
 #endregion
 
+#region Question 7
+// Convert string to int using Convert class
+
+string pagesText = "464";
+int Pages = Convert.ToInt32(pagesText);
+
+Console.WriteLine(Pages);
+#endregion
+
 // Simple Book class
 public class Book
 {
