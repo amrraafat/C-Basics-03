@@ -51,6 +51,15 @@ finally
 }
 #endregion
 
+#region Question 5
+// Store int in double without casting (Implicit conversion)
+
+int page = 300;
+double doublePages = page; // Automatically converts int to double
+
+Console.WriteLine(doublePages);
+#endregion
+
 // Simple Book class
 public class Book
 {
