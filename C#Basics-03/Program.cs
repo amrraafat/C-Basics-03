@@ -33,6 +33,24 @@ int pages = int.Parse("464");
 Console.WriteLine(pages);
 #endregion
 
+#region Question 4
+// Try to divide by zero, catch exception and print messages
+var num1 = 10;
+var num2 = 0;
+try
+{
+    int result = num1 / num2;
+}
+catch (DivideByZeroException)
+{
+    Console.WriteLine("Cannot divide by zero");
+}
+finally
+{
+    Console.WriteLine("Done");
+}
+#endregion
+
 // Simple Book class
 public class Book
 {
