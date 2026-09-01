@@ -78,6 +78,26 @@ int Pages = Convert.ToInt32(pagesText);
 Console.WriteLine(Pages);
 #endregion
 
+#region Question 8
+// Convert yearText using int.Parse and use TryParse for badText safely
+
+string yearText = "2023";
+int year = int.Parse(yearText);
+Console.WriteLine(year);
+
+string badText = "abc";
+bool isSuccess = int.TryParse(badText, out int result);
+
+if (isSuccess)
+{
+    Console.WriteLine(result);
+}
+else
+{
+    Console.WriteLine("Invalid number");
+}
+#endregion
+
 // Simple Book class
 public class Book
 {
