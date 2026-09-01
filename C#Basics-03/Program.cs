@@ -169,7 +169,6 @@ switch (title)
 }
 #endregion
 
-
 #region Question 14
 // Ternary operator to check if pages > 300
 
@@ -188,6 +187,19 @@ string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 for (int i = 0; i < books.Length; i++)
 {
     Console.WriteLine((i + 1) + ". " + books[i]);
+}
+#endregion
+
+#region Question 16
+// While loop to print every book title
+
+string[] books1 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+int i = 0;
+while (i < books1.Length)
+{
+    Console.WriteLine(books1[i]);
+    i++;
 }
 #endregion
 
