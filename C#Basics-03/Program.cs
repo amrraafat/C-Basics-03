@@ -108,6 +108,21 @@ Console.WriteLine(pagesText);
 Console.WriteLine(pagesText.GetType());
 #endregion
 
+#region Question 10
+// Boxing and Unboxing
+
+int copies = 100;
+
+// Boxing: int to object
+object objCopies = copies;
+
+// Unboxing: object to int
+int newCopies = (int)objCopies;
+
+Console.WriteLine(objCopies);
+Console.WriteLine(newCopies);
+#endregion
+
 // Simple Book class
 public class Book
 {
