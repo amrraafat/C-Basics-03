@@ -226,6 +226,19 @@ foreach (string book in books3)
 }
 #endregion
 
+#region Question 19
+// Loop through numbers and skip 3 using continue
+
+for (int t = 1; t <= 5; t++)
+{
+    if (t == 3)
+    {
+        continue; // Skip the number 3
+    }
+    Console.WriteLine(t);
+}
+#endregion
+
 // Simple Book class
 public class Book
 {
