@@ -184,9 +184,9 @@ Console.WriteLine(sizeLabel);
 
 string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-for (int i = 0; i < books.Length; i++)
+for (int y = 0; y < books.Length; y++)
 {
-    Console.WriteLine((i + 1) + ". " + books[i]);
+    Console.WriteLine((y + 1) + ". " + books[y]);
 }
 #endregion
 
@@ -236,6 +236,19 @@ for (int t = 1; t <= 5; t++)
         continue; // Skip the number 3
     }
     Console.WriteLine(t);
+}
+#endregion
+
+#region Question 20
+// Loop through numbers and stop at 3 using break
+
+for (int l = 1; l <= 5; l++)
+{
+    if (l == 3)
+    {
+        break; // Stop the loop when l is 3
+    }
+    Console.WriteLine(l);
 }
 #endregion
 
