@@ -203,6 +203,18 @@ while (i < books1.Length)
 }
 #endregion
 
+#region Question 17
+// Do-while loop to print 3 times
+
+int count = 0;
+
+do
+{
+    Console.WriteLine("Checking book...");
+    count++;
+} while (count < 3);
+#endregion
+
 // Simple Book class
 public class Book
 {
