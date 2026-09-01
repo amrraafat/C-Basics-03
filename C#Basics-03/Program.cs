@@ -123,6 +123,21 @@ Console.WriteLine(objCopies);
 Console.WriteLine(newCopies);
 #endregion
 
+#region Question 11
+// Check if book pages is greater than 300 using if / else
+
+int pages3 = 464;
+
+if (pages3 > 300)
+{
+    Console.WriteLine("Long Book");
+}
+else
+{
+    Console.WriteLine("Short Book");
+}
+#endregion
+
 // Simple Book class
 public class Book
 {
