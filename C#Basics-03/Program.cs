@@ -252,6 +252,21 @@ for (int l = 1; l <= 5; l++)
 }
 #endregion
 
+#region Question 21
+// Try-catch block to handle invalid input when parsing string to int
+
+string invalidInput = "abc";
+
+try
+{
+    int pages6 = int.Parse(invalidInput);
+    Console.WriteLine(pages6);
+}
+catch (FormatException ex)
+{
+    Console.WriteLine("Error: Input string was not in a correct format.");
+}
+#endregion
 // Simple Book class
 public class Book
 {
